@@ -15,6 +15,7 @@ This project aims to revolutionize the transportation industry by providing a co
 - [Result](#Result)
 - [Reference](#Reference)
 
+
 ## Usage
 
 The solution can be applied to various business scenarios including:
@@ -48,7 +49,8 @@ Before you begin, ensure you have the following installed:
 - **Selenium**: A powerful tool for web automation that allows you to programmatically control a web browser. It's essential for automating web scraping tasks.
 - **SQL**: SQLite3 is a lightweight, self-contained SQL database engine known for its simplicity and portability
 - **Streamlit**: A tool to display and filter the scrapped data.
-- 
+
+
 ## Installation:
 
 ## I. Selenium:
