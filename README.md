@@ -36,6 +36,7 @@ Store the scraped data in a SQL database.
 **3. Streamlit Application**:
    - Develop a Streamlit application to display and filter the scraped data.
    - Implement various filters such as bus type, route, price range, star rating, and availability.
+   - 
 **4. Data Analysis/Filtering using Streamlit**:
    - Use SQL queries to retrieve and filter data based on user inputs.
    - Use Streamlit to allow users to interact with and filter the data through the application.
