@@ -137,11 +137,11 @@ x = st.slider("Select a value")
 st.write(x, "squared is", x * x)
 ```
 
-Now run it to open the app!
+Now run this to open the app!
 ```
 $ streamlit run streamlit_app.py
 ```
-If this opens, our app in your browser, you're all set! If not, head over to [our docs](https://docs.streamlit.io/get-started) for specific installs.
+This opens our app in your browser, you're all set! If not, head over to [our docs](https://docs.streamlit.io/get-started) for specific installs.
 
 
 ## Result
