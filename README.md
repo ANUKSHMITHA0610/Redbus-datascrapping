@@ -1,22 +1,43 @@
 
-# Redbus Data Scraping with Selenium & Dynamic Filtering using Streamlit
+<div align="center">
 
-This project aims to revolutionize the transportation industry by providing a comprehensive solution for collecting, analyzing, and visualizing bus travel data. By utilizing Selenium for web scraping, this project automates the extraction of detailed information from Redbus, including bus routes, schedules, prices, and seat availability. By streamlining data collection and providing powerful tools for data-driven decision-making, this project can significantly improve operational efficiency and strategic planning in the transportation industry.
+# 🚍	Redbus Data Scraping with Selenium & Dynamic Filtering using Streamlit
+
+</div>
+
+<div align="center">
+
+[![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)](https://www.python.org)
+[![](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
+[![](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
+[![](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com)
+[![](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)](https://www.selenium.dev/documentation/webdriver/elements/locators/)
+[![](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=mysql&logoColor=white)](https://dev.mysql.com/doc/)
+
+</div>
+
+<div align="center">
+  <img width="865" alt="image" src="https://github.com/user-attachments/assets/668ccde0-1434-4fa8-9993-0cd02df1af9a">
+</div>
+
+# 	📃 Project Overview
+
+Our project aims to revolutionize the transportation industry by providing a comprehensive solution for collecting, analyzing, and visualizing bus travel data. By utilizing Selenium for web scraping, this project automates the extraction of detailed information from Redbus, including bus routes, schedules, prices, and seat availability. By streamlining data collection and providing powerful tools for data-driven decision-making, this project can significantly improve operational efficiency and strategic planning in the transportation industry.
 
 
+## 📋 Table of Contents
+
+- Usage
+- Approach
+- Technology Used
+- Installation
+- Result
+- Reference
 
 
-## Table of content
-
-- [Usage](#usage)
-- [Approach](#Approach)
-- [Technology Used](#TechnologyUsed)
-- [Installation](#Installation)
-- [Result](#Result)
-- [Reference](#Reference)
-
-
-## Usage
+## 🚀 Usage
 
 The solution can be applied to various business scenarios including:
 - **Travel Aggregators**: Providing real-time bus schedules and seat availability for customers.
@@ -25,7 +46,7 @@ The solution can be applied to various business scenarios including:
 - **Competitor Analysis**: Comparing pricing and service levels with competitors.
 
 
-## Approach
+## 🛠 Approach
 
 **1. Data Scraping**:
 Use Selenium to automate the extraction of Redbus data including routes, schedules, prices, and seat availability.
@@ -40,9 +61,8 @@ Store the scraped data in a SQL database.
 **4. Data Analysis/Filtering using Streamlit**:
    - Use SQL queries to retrieve and filter data based on user inputs.
    - Use Streamlit to allow users to interact with and filter the data through the application.
-   
-   
-## Technolgy used
+      
+## 🧩 Technology Used
 Before you begin, ensure you have the following installed:
 
 - **Python 3.x**: A versatile programming language that is widely used for web scraping, data analysis, and developing web applications.
@@ -52,7 +72,7 @@ Before you begin, ensure you have the following installed:
 - **Streamlit**: A tool to display and filter the scrapped data.
 
 
-## Installation:
+## 📥 Installation
 
 ## I. Selenium:
 Selenium is a library that enables automation of web browsers. It is primarily used for automating web applications for testing purposes but is also capable of being used for automating any web-based administration tasks.
@@ -144,7 +164,7 @@ $ streamlit run streamlit_app.py
 This opens our app in your browser, you're all set! If not, head over to [our docs](https://docs.streamlit.io/get-started) for specific installs.
 
 
-## Result
+## 🎯 Result
 
 ### You should aim to:
 - Successfully scrape a minimum of 10 Government State Bus Transport data from Redbus website using Selenium. Also include the private bus information for the selected routes.
@@ -157,7 +177,8 @@ This opens our app in your browser, you're all set! If not, head over to [our do
 - **Data Scraping Accuracy**: Completeness and correctness of the scraped data.
 - **Database Design**: Effective and efficient database schema.
 - **Application Usability**: User experience and ease of use of the Streamlit
-## References
+
+## 📂	References
 
 - Selenium Documentation :
 https://www.selenium.dev/documentation/webdriver/elements/locators/
